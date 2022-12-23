@@ -130,7 +130,7 @@ public class f15Entity extends PathAwareEntity implements GeoAnimatable {
                     throttle = MathHelper.clamp(throttle - 1, -3, 10);
                     client.player.sendMessage(Text.literal("Throttle level: " + throttle), true);
                 }
-                client.player.sendMessage(Text.literal("Debug Readout: "+downForce), true);
+                client.player.sendMessage(Text.literal("Debug Readout: " + throttle), true);
             }
         });
 
